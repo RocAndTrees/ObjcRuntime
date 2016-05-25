@@ -36,15 +36,24 @@
     if (nil == cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identf];
     }
-    cell.backgroundColor = [UIColor redColor];
+//    cell.backgroundColor = [UIColor redColor];
+    NSString* str = [NSString stringWithFormat:@"case %ld",indexPath.row+1];
+    cell.textLabel.text = str;
+    
     return cell;
 }
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    
+    NSString*str = [NSString stringWithFormat:@"CaseController%ld",indexPath.row+1];
+    [self pushViewController:str];
+}
+
+
+-(void)pushViewController:(NSString*)controller{
+    UIViewController* controller1 = [[NSClassFromString(controller) alloc] init];
+    [self.navigationController pushViewController:controller1 animated:YES];
 }
 
 

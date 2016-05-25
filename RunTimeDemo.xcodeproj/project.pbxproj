@@ -13,6 +13,14 @@
 		1821E1F31CF54D640077BA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821E1F11CF54D640077BA91 /* Main.storyboard */; };
 		1821E1F51CF54D640077BA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1821E1F41CF54D640077BA91 /* Assets.xcassets */; };
 		1821E1F81CF54D640077BA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821E1F61CF54D640077BA91 /* LaunchScreen.storyboard */; };
+		1821E2091CF58AA70077BA91 /* CaseController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E2081CF58AA70077BA91 /* CaseController1.m */; };
+		1821E20D1CF58B340077BA91 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E20C1CF58B340077BA91 /* Person.m */; };
+		1821E2101CF591B10077BA91 /* CaseController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E20F1CF591B10077BA91 /* CaseController2.m */; };
+		1821E2131CF591B70077BA91 /* CaseController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E2121CF591B70077BA91 /* CaseController3.m */; };
+		1821E2161CF591BE0077BA91 /* CaseController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E2151CF591BE0077BA91 /* CaseController4.m */; };
+		1821E2191CF591C40077BA91 /* CaseController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E2181CF591C40077BA91 /* CaseController5.m */; };
+		1821E21C1CF591EA0077BA91 /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E21B1CF591EA0077BA91 /* Person2.m */; };
+		1821E21F1CF593030077BA91 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821E21E1CF593030077BA91 /* UIImage+image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		1821E1F41CF54D640077BA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1821E1F71CF54D640077BA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1821E1F91CF54D640077BA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1821E2071CF58AA70077BA91 /* CaseController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseController1.h; sourceTree = "<group>"; };
+		1821E2081CF58AA70077BA91 /* CaseController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseController1.m; sourceTree = "<group>"; };
+		1821E20B1CF58B340077BA91 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = View/Person.h; sourceTree = "<group>"; };
+		1821E20C1CF58B340077BA91 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = View/Person.m; sourceTree = "<group>"; };
+		1821E20E1CF591B10077BA91 /* CaseController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseController2.h; sourceTree = "<group>"; };
+		1821E20F1CF591B10077BA91 /* CaseController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseController2.m; sourceTree = "<group>"; };
+		1821E2111CF591B70077BA91 /* CaseController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseController3.h; sourceTree = "<group>"; };
+		1821E2121CF591B70077BA91 /* CaseController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseController3.m; sourceTree = "<group>"; };
+		1821E2141CF591BE0077BA91 /* CaseController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseController4.h; sourceTree = "<group>"; };
+		1821E2151CF591BE0077BA91 /* CaseController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseController4.m; sourceTree = "<group>"; };
+		1821E2171CF591C40077BA91 /* CaseController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseController5.h; sourceTree = "<group>"; };
+		1821E2181CF591C40077BA91 /* CaseController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseController5.m; sourceTree = "<group>"; };
+		1821E21A1CF591EA0077BA91 /* Person2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
+		1821E21B1CF591EA0077BA91 /* Person2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
+		1821E21D1CF593030077BA91 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		1821E21E1CF593030077BA91 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +82,12 @@
 		1821E1E71CF54D640077BA91 /* RunTimeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1821E2011CF56FCD0077BA91 /* Classes */,
 				1821E1EB1CF54D640077BA91 /* AppDelegate.h */,
 				1821E1EC1CF54D640077BA91 /* AppDelegate.m */,
 				1821E1EE1CF54D640077BA91 /* ViewController.h */,
 				1821E1EF1CF54D640077BA91 /* ViewController.m */,
 				1821E1F11CF54D640077BA91 /* Main.storyboard */,
+				1821E2011CF56FCD0077BA91 /* Classes */,
 				1821E1F41CF54D640077BA91 /* Assets.xcassets */,
 				1821E1F61CF54D640077BA91 /* LaunchScreen.storyboard */,
 				1821E1F91CF54D640077BA91 /* Info.plist */,
@@ -83,6 +107,7 @@
 		1821E2011CF56FCD0077BA91 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1821E20A1CF58B1B0077BA91 /* View */,
 				1821E2021CF56FFE0077BA91 /* case1 */,
 				1821E2031CF56FFE0077BA91 /* case2 */,
 				1821E2041CF56FFE0077BA91 /* case3 */,
@@ -95,6 +120,8 @@
 		1821E2021CF56FFE0077BA91 /* case1 */ = {
 			isa = PBXGroup;
 			children = (
+				1821E2071CF58AA70077BA91 /* CaseController1.h */,
+				1821E2081CF58AA70077BA91 /* CaseController1.m */,
 			);
 			path = case1;
 			sourceTree = "<group>";
@@ -102,6 +129,8 @@
 		1821E2031CF56FFE0077BA91 /* case2 */ = {
 			isa = PBXGroup;
 			children = (
+				1821E20E1CF591B10077BA91 /* CaseController2.h */,
+				1821E20F1CF591B10077BA91 /* CaseController2.m */,
 			);
 			path = case2;
 			sourceTree = "<group>";
@@ -109,6 +138,8 @@
 		1821E2041CF56FFE0077BA91 /* case3 */ = {
 			isa = PBXGroup;
 			children = (
+				1821E2111CF591B70077BA91 /* CaseController3.h */,
+				1821E2121CF591B70077BA91 /* CaseController3.m */,
 			);
 			path = case3;
 			sourceTree = "<group>";
@@ -116,6 +147,8 @@
 		1821E2051CF56FFE0077BA91 /* case4 */ = {
 			isa = PBXGroup;
 			children = (
+				1821E2141CF591BE0077BA91 /* CaseController4.h */,
+				1821E2151CF591BE0077BA91 /* CaseController4.m */,
 			);
 			path = case4;
 			sourceTree = "<group>";
@@ -123,8 +156,23 @@
 		1821E2061CF56FFE0077BA91 /* case5 */ = {
 			isa = PBXGroup;
 			children = (
+				1821E2171CF591C40077BA91 /* CaseController5.h */,
+				1821E2181CF591C40077BA91 /* CaseController5.m */,
 			);
 			path = case5;
+			sourceTree = "<group>";
+		};
+		1821E20A1CF58B1B0077BA91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1821E20B1CF58B340077BA91 /* Person.h */,
+				1821E20C1CF58B340077BA91 /* Person.m */,
+				1821E21A1CF591EA0077BA91 /* Person2.h */,
+				1821E21B1CF591EA0077BA91 /* Person2.m */,
+				1821E21D1CF593030077BA91 /* UIImage+image.h */,
+				1821E21E1CF593030077BA91 /* UIImage+image.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +245,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1821E2161CF591BE0077BA91 /* CaseController4.m in Sources */,
+				1821E21F1CF593030077BA91 /* UIImage+image.m in Sources */,
 				1821E1F01CF54D640077BA91 /* ViewController.m in Sources */,
+				1821E2191CF591C40077BA91 /* CaseController5.m in Sources */,
+				1821E2091CF58AA70077BA91 /* CaseController1.m in Sources */,
+				1821E2101CF591B10077BA91 /* CaseController2.m in Sources */,
+				1821E21C1CF591EA0077BA91 /* Person2.m in Sources */,
+				1821E20D1CF58B340077BA91 /* Person.m in Sources */,
+				1821E2131CF591B70077BA91 /* CaseController3.m in Sources */,
 				1821E1ED1CF54D640077BA91 /* AppDelegate.m in Sources */,
 				1821E1EA1CF54D640077BA91 /* main.m in Sources */,
 			);
@@ -311,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pxl.RunTimeDemo;
@@ -322,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = RunTimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pxl.RunTimeDemo;
