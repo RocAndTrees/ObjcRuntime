@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tabelView;
 
 @end
 
@@ -16,12 +17,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self buildTableView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark - ---- delegate 🍎🌝
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 5;
 }
 
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+{
+    static NSString *identf = @"cellID";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identf];
+    if (nil == cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identf];
+    }
+    cell.backgroundColor = [UIColor redColor];
+    return cell;
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    
+}
+
+
+-(void)buildTableView{
+    [self.tabelView setTableFooterView:[[UIView  alloc] init]];
+}
 @end
